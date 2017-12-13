@@ -17,6 +17,8 @@ import javax.ws.rs.core.Response;
 public class MusicaService {
 
     private static String uri;
+    private final String apikey="660a4395f992ff67786584e238f501aa";
+    
     private Client client = ClientBuilder.newClient();
     
     public MusicaService(String period, String scope) {
